@@ -1,3 +1,5 @@
+Here, is a project report of security analysis work done with a real company based in burien. 
+
 # 🛡️ Security Analysis Report — Burien Municipal Network
 **Conducted by:** Green Team (Darci, Kyle, William Schnaith, Dylan, Edith, Chris)
 **Client:** City of Burien | **Classification:** Academic / Simulated
