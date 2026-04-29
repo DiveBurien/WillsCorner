@@ -15,7 +15,7 @@ My learning journey has led me to a deep passion for cybersecurity. Through acad
 ## 📋 Skills
 Security competencies I've developed and demonstrated across my projects.
 
-**Jump to:** [🔍 Vulnerability Management](#-vulnerability-management) · [📊 SIEM & Log Analysis](#-siem--log-analysis) · [🔴 Penetration Testing & Incident Response](#-penetration-testing--incident-response) · [🔵 Network Defense & Hardening](#-network-defense--hardening) · [🗂️ Active Directory & Identity Security](#️-active-directory--identity-security) · [🗄️ Database Security & Administration](#️-database-security--administration) · [☁️ Cloud & Big Data](#️-cloud--big-data)
+**Jump to:** [🔍 Vulnerability Management](#-vulnerability-management) · [📊 SIEM & Log Analysis](#-siem--log-analysis) · [🔴 Penetration Testing & Incident Response](#-penetration-testing--incident-response) · [🔵 Network Defense & Hardening](#-network-defense--hardening) · [🗂️ Active Directory & Identity Security](#️-active-directory--identity-security) · [🗄️ Database Security & Administration](#️-database-security--administration) · [☁️ Cloud & Big Data](#️-cloud--big-data) · [🌐 Networking & Infrastructure](#-networking--infrastructure)
 
 ### 🔍 Vulnerability Management
 | Skill | Description | Associated Project |
@@ -74,6 +74,20 @@ Security competencies I've developed and demonstrated across my projects.
 | AWS S3 Bucket Management | Created S3 buckets, uploaded datasets and scripts, and managed output folders for a big data pipeline | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
 | AWS EMR Cluster Configuration | Provisioned and configured an Amazon EMR cluster with Spark, Hadoop, and Hive for distributed data processing | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
 | Big Data Processing with PySpark | Ran a PySpark job on EMR to process an 11MB food establishment dataset and generate ranked output results | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
+
+### 🌐 Networking & Infrastructure
+| Skill | Description | Associated Project |
+|-------|-------------|-------------------|
+| VLAN Configuration & Trunking | Configure VLANs, trunk ports, DTP, and 802.1Q encapsulation on Cisco switches | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> |
+| Inter-VLAN Routing | Implement router-on-a-stick and Layer 3 switch inter-VLAN routing with security best practices | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> |
+| Spanning Tree Protocol (STP) | Configure and troubleshoot STP and Rapid PVST+ to eliminate switching loops and ensure redundancy | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> |
+| EtherChannel | Bundle physical links using LACP/PAgP for increased bandwidth and link redundancy | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> |
+| DHCP Configuration (IPv4/IPv6) | Configure DHCPv4/v6 servers, relay agents, SLAAC, and stateful DHCPv6 | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> |
+| First-Hop Redundancy (HSRP) | Configure HSRP virtual IPs and failover behavior for gateway high availability | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> |
+| Layer 2 Security | Implement port security, DHCP snooping, and Dynamic ARP Inspection to mitigate LAN-level attacks | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> |
+| Wireless Networking (WLAN) | Configure WLANs, apply WPA2/WPA3 security protocols, and troubleshoot wireless connectivity | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> |
+| Static & Default Routing | Configure static, default, and floating static routes for IPv4 and IPv6 networks | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> |
+| Network Troubleshooting | Diagnose and resolve issues with VLANs, inter-VLAN routing, STP, EtherChannel, and routing | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> |
 
 ---
 
@@ -144,7 +158,9 @@ Tools I've learned and used across my security projects, organized by category.
 | CCNAv7: Switching, Routing, and Wireless Essentials | Highline College | Cisco Networking Academy | Dec 2023 |
 | CCNAv7: Introduction to Networks | Highline College | Cisco Networking Academy | Dec 2022 |
 
-> 📄 Full learning transcript available in the <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> folder.
+Topics covered across the CCNAv7 curriculum include VLANs, inter-VLAN routing, STP, EtherChannel, DHCP, HSRP, Layer 2 security, wireless networking (WPA2/WPA3), static and default routing, and IPv6 — all with hands-on labs using Cisco Packet Tracer.
+
+> 📄 Full course breakdown and skills list available in the <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> folder.
 
 ---
 
