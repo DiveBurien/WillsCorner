@@ -13,7 +13,7 @@ My learning journey has guided me to a passion for cybersecurity, and I am now e
 |-----------------------------------------------|----------------------------|
 | SIEM Implementation and Log Analysis          | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/Security-analysis-report">Security-analysis-report</a>|
 | Network Traffic Monitoring and Attack Detection | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/Security-analysis-report">Security-analysis-report</a>|
-| Incident Response Planning and Execution      | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">Penetration test markup</a>|
+
 
 ## Projects
 - Security analysis project
