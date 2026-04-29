@@ -137,6 +137,17 @@ Tools I've learned and used across my security projects, organized by category.
 
 ---
 
+## 🎓 Certifications & Coursework
+
+| Course | Institution | Platform | Completed |
+|--------|------------|----------|-----------|
+| CCNAv7: Switching, Routing, and Wireless Essentials | Highline College | Cisco Networking Academy | Dec 2023 |
+| CCNAv7: Introduction to Networks | Highline College | Cisco Networking Academy | Dec 2022 |
+
+> 📄 Full learning transcript available in the <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> folder.
+
+---
+
 ## 📁 Projects
 
 | Project | Description |
