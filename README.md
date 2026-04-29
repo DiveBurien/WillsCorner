@@ -1,4 +1,4 @@
-# 👋 Hello, I'm William Schnaith
+# Hi, I'm William Schnaith.
 
 <a href="https://www.linkedin.com/in/williamschnaith/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
@@ -8,12 +8,14 @@ I am a recent cybersecurity graduate actively building hands-on skills in penetr
 
 ## 🎯 Objective
 
-My learning journey has led me to a deep passion for cybersecurity. Through academic projects and real-world simulations, I have developed experience in penetration testing, SIEM analysis, network defense, and vulnerability management. I am now eager to bring these skills to a professional environment, specifically aiming to join a **Security Operations Center (SOC)** or **IT Security Analyst** team.
+My learning journey has led me to a deep passion for cybersecurity. Through academic projects and real-world simulations, I have developed experience in penetration testing, SIEM analysis, network defense, and vulnerability management. I am now eager to bring these skills to a professional environment as a Security Analyst.
 
 ---
 
 ## 📋 Skills
 Security competencies I've developed and demonstrated across my projects.
+
+**Jump to:** [🔍 Vulnerability Management](#-vulnerability-management) · [📊 SIEM & Log Analysis](#-siem--log-analysis) · [🔴 Penetration Testing & Incident Response](#-penetration-testing--incident-response) · [🔵 Network Defense & Hardening](#-network-defense--hardening) · [🗂️ Active Directory & Identity Security](#️-active-directory--identity-security)
 
 ### 🔍 Vulnerability Management
 | Skill | Description | Associated Project |
@@ -56,6 +58,8 @@ Security competencies I've developed and demonstrated across my projects.
 
 ## 🛠️ Toolbox
 Tools I've learned and used across my security projects, organized by category.
+
+**Jump to:** [🌐 Network Scanning & Reconnaissance](#-network-scanning--reconnaissance) · [🔴 Exploitation & Offensive Security](#-exploitation--offensive-security) · [🔵 Intrusion Detection & Network Defense](#-intrusion-detection--network-defense) · [📊 SIEM & Threat Hunting](#-siem--threat-hunting) · [🗂️ Active Directory & Identity](#️-active-directory--identity)
 
 ### 🌐 Network Scanning & Reconnaissance
 | Tool | Description | Associated Project |
