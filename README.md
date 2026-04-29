@@ -151,7 +151,7 @@ Tools I've learned and used across my security projects, organized by category.
 
 ---
 
-## 🎓 Certifications & Coursework
+<!--## 🎓 Certifications & Coursework
 
 | Course | Institution | Platform | Completed |
 |--------|------------|----------|-----------|
@@ -163,7 +163,7 @@ Topics covered across the CCNAv7 curriculum include VLANs, inter-VLAN routing, S
 > 📄 Full course breakdown and skills list available in the <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> folder.
 
 ---
-
+-->
 ## 📁 Projects
 
 | Project | Description |
