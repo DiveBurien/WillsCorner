@@ -12,47 +12,6 @@ My learning journey has led me to a deep passion for cybersecurity. Through acad
 
 ---
 
-## 🛠️ Toolbox
-Tools I've learned and used across my security projects, organized by category.
-
-### 🌐 Network Scanning & Reconnaissance
-| Tool | Description | Associated Project |
-|------|-------------|-------------------|
-| Nmap | Port scanning, OS detection, and vulnerability enumeration across network hosts | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a>, <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
-| Zenmap | GUI-based network scanning and topology mapping using Nmap | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
-| WireShark | Live packet capture and network traffic analysis | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
-| Responder | LLMNR/NBT-NS poisoning for credential interception on internal networks | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
-
-### 🔴 Exploitation & Offensive Security
-| Tool | Description | Associated Project |
-|------|-------------|-------------------|
-| Metasploit — MySQL | Auxiliary module for database authentication testing and enumeration | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
-| Metasploit — NetAPI | MS08-067 SMB exploit with Meterpreter reverse TCP payload | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
-| Armitage | Graphical Metasploit interface for coordinating multi-host attack campaigns | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
-| C2 and Agent (Mythic / Apollo) | Command & Control framework for simulating post-exploitation malware behavior | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
-| Vulnserver | Binary exploitation and buffer overflow testing on Windows environments | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
-| msfvenom | Shellcode and payload generation for exploitation scenarios | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
-| LOLbins | Leveraging native Windows binaries for post-exploitation techniques | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
-
-### 🔵 Intrusion Detection & Network Defense
-| Tool | Description | Associated Project |
-|------|-------------|-------------------|
-| Snort IDS/IPS | Real-time network intrusion detection and prevention using custom rule sets | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
-| OpenVAS | Vulnerability scanning and risk assessment across internal network hosts | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
-
-### 📊 SIEM & Threat Hunting
-| Tool | Description | Associated Project |
-|------|-------------|-------------------|
-| Elastic SIEM | Log ingestion, alert triage, threat hunting, and geolocation analysis | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/Security-analysis-report">Security-analysis-report</a> |
-| Suricata | Network threat detection and alert generation integrated with Elastic | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/Security-analysis-report">Security-analysis-report</a> |
-
-### 🗂️ Active Directory & Identity
-| Tool | Description | Associated Project |
-|------|-------------|-------------------|
-| BloodHound | Active Directory relationship visualization and privilege escalation path analysis | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
-
----
-
 ## 📋 Skills
 Security competencies I've developed and demonstrated across my projects.
 
@@ -92,6 +51,47 @@ Security competencies I've developed and demonstrated across my projects.
 |-------|-------------|-------------------|
 | Active Directory Enumeration | Used BloodHound to map AD relationships and identify privilege escalation paths | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
 | Credential Attack & Hash Capture | Captured NTLM password hashes via LLMNR poisoning using Responder | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
+
+---
+
+## 🛠️ Toolbox
+Tools I've learned and used across my security projects, organized by category.
+
+### 🌐 Network Scanning & Reconnaissance
+| Tool | Description | Associated Project |
+|------|-------------|-------------------|
+| Nmap | Port scanning, OS detection, and vulnerability enumeration across network hosts | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a>, <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
+| Zenmap | GUI-based network scanning and topology mapping using Nmap | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
+| WireShark | Live packet capture and network traffic analysis | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
+| Responder | LLMNR/NBT-NS poisoning for credential interception on internal networks | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
+
+### 🔴 Exploitation & Offensive Security
+| Tool | Description | Associated Project |
+|------|-------------|-------------------|
+| Metasploit — MySQL | Auxiliary module for database authentication testing and enumeration | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
+| Metasploit — NetAPI | MS08-067 SMB exploit with Meterpreter reverse TCP payload | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
+| Armitage | Graphical Metasploit interface for coordinating multi-host attack campaigns | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
+| C2 and Agent (Mythic / Apollo) | Command & Control framework for simulating post-exploitation malware behavior | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
+| Vulnserver | Binary exploitation and buffer overflow testing on Windows environments | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
+| msfvenom | Shellcode and payload generation for exploitation scenarios | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
+| LOLbins | Leveraging native Windows binaries for post-exploitation techniques | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
+
+### 🔵 Intrusion Detection & Network Defense
+| Tool | Description | Associated Project |
+|------|-------------|-------------------|
+| Snort IDS/IPS | Real-time network intrusion detection and prevention using custom rule sets | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
+| OpenVAS | Vulnerability scanning and risk assessment across internal network hosts | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
+
+### 📊 SIEM & Threat Hunting
+| Tool | Description | Associated Project |
+|------|-------------|-------------------|
+| Elastic SIEM | Log ingestion, alert triage, threat hunting, and geolocation analysis | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/Security-analysis-report">Security-analysis-report</a> |
+| Suricata | Network threat detection and alert generation integrated with Elastic | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/Security-analysis-report">Security-analysis-report</a> |
+
+### 🗂️ Active Directory & Identity
+| Tool | Description | Associated Project |
+|------|-------------|-------------------|
+| BloodHound | Active Directory relationship visualization and privilege escalation path analysis | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
 
 ---
 
