@@ -8,16 +8,36 @@ I am a recent cybersecurity graduate building my skills for the field.
 My learning journey has guided me to a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) team as an Analyst.
 
 ## Skills
+A list of skills I've obtained and exercised with projects.
 
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
 | SIEM Implementation and Log Analysis          | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/Security-analysis-report">Security-analysis-report</a>|
 | Network Traffic Monitoring and Attack Detection | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/Security-analysis-report">Security-analysis-report</a>|
-| Network analysis and vulnerability assessment      | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">Penetration test markup</a>|
+| Network analysis and vulnerability assessment      | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">Pentest-report</a>|
+
+## Toolbox
+A list of tools I've learned and used in my projects
+
+| Tools                                         | Associated Project         |
+|-----------------------------------------------|----------------------------|
+| WireShark          | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a>|
+| Snort | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a>|
+| Zenmap      | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a>|
+| Nmap      | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a>|
+| Metasploit — MySQL      | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a>|
+| Metasploit — NetAPI      | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a>|
+| Armitage      | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a>|
+| C2 and Agent (Mythic / Apollo)      | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">Pentest-report</a>|
+| Vulnserver      | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">Pentest-report</a>|
+| BloodHound      | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">Pentest-report</a>|
+
+
 
 ## Projects
-- Security analysis project
+- Security analysis report project
 - Penetration test markup
+- snort pentest student groups
 <!-- https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest 
 # Hello, I'm William Schnaith
 <a href="https://www.linkedin.com/in/williamschnaith/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
