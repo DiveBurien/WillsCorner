@@ -137,7 +137,7 @@ Tools I've learned and used across my security projects, organized by category.
 
 ---
 
-## 🎓 Certifications & Coursework
+<!--## 🎓 Certifications & Coursework
 
 | Course | Institution | Platform | Completed |
 |--------|------------|----------|-----------|
@@ -147,7 +147,7 @@ Tools I've learned and used across my security projects, organized by category.
 > 📄 Full learning transcript available in the <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> folder.
 
 ---
-
+-->
 ## 📁 Projects
 
 | Project | Description |
