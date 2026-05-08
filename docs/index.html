@@ -3,204 +3,441 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="William Schnaith — SOC Analyst resume. CompTIA Security+ and Mile2 C)PTE certified. SIEM operations, threat hunting, incident response.">
-<meta name="theme-color" content="#1a3a5c">
-<title>William Schnaith — SOC Analyst Resume</title>
+<meta name="description" content="William Schnaith — SOC Analyst portfolio. CompTIA Security+ and Mile2 C)PTE certified. Hands-on experience in SIEM operations, threat hunting, and incident response.">
+<meta name="theme-color" content="#0d1117">
+<title>William Schnaith — SOC Analyst Portfolio</title>
 <link rel="stylesheet" href="style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<button class="print-btn" onclick="window.print()" aria-label="Print resume">
-  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
-  Print / Save as PDF
-</button>
-
-<main class="resume">
-
-  <!-- ============ HEADER ============ -->
-  <header class="resume__head">
-    <h1 class="resume__name">William Schnaith</h1>
-    <p class="resume__title">SOC Analyst &middot; Blue Team &middot; Threat Hunter</p>
-    <ul class="resume__contact">
-      <li>Seattle, WA</li>
-      <li><a href="https://www.linkedin.com/in/williamschnaith/" target="_blank" rel="noopener">linkedin.com/in/williamschnaith</a></li>
-      <li><a href="https://github.com/DiveBurien" target="_blank" rel="noopener">github.com/DiveBurien</a></li>
+<!-- ================ NAV ================ -->
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__brand">
+      <span class="nav__brand-dot"></span>
+      <span>William Schnaith</span>
+    </a>
+    <ul class="nav__links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#competencies">Competencies</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certs">Certs</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
-  </header>
+  </div>
+</nav>
 
-  <!-- ============ SUMMARY ============ -->
-  <section class="resume__section">
-    <h2 class="resume__section-title">Professional Summary</h2>
-    <p class="resume__summary">
-      Cybersecurity analyst with hands-on experience in SIEM operations, threat hunting, incident response, and offensive security. Holds <strong>CompTIA Security+</strong> and <strong>Mile2 C)PTE</strong> certifications. Most recent project involved <strong>33 active threat investigations</strong> on a live municipal network using Elastic SIEM and Suricata. Brings both defender mindset and attacker fluency to detection engineering and alert triage.
+<!-- ================ HERO ================ -->
+<header id="top" class="hero">
+  <div class="hero__inner">
+    <div class="hero__tag">
+      <span class="hero__tag-dot"></span>
+      Available for SOC Analyst roles
+    </div>
+    <h1 class="hero__title">William Schnaith</h1>
+    <h2 class="hero__subtitle">
+      <span class="accent">SOC Analyst</span> · Blue Team · Threat Hunter
+    </h2>
+    <p class="hero__lede">
+      Cybersecurity professional with hands-on experience in SIEM operations, threat hunting,
+      incident response, and offensive security. CompTIA Security+ and Mile2 C)PTE certified.
+      Most recent project: <strong>33 active threat investigations</strong> on a live municipal network
+      using Elastic SIEM and Suricata.
     </p>
-  </section>
+    <div class="hero__actions">
+      <a href="#projects" class="btn btn--primary">View Projects</a>
+      <a href="https://www.linkedin.com/in/williamschnaith/" target="_blank" rel="noopener" class="btn btn--ghost">LinkedIn</a>
+      <a href="https://github.com/DiveBurien/WillsCorner" target="_blank" rel="noopener" class="btn btn--ghost">GitHub Repo</a>
+    </div>
+    <div class="hero__stats">
+      <div class="stat"><div class="stat__num">33</div><div class="stat__label">Threat investigations</div></div>
+      <div class="stat"><div class="stat__num">2</div><div class="stat__label">Active certifications</div></div>
+      <div class="stat"><div class="stat__num">4</div><div class="stat__label">Featured projects</div></div>
+      <div class="stat"><div class="stat__num">20+</div><div class="stat__label">Security tools</div></div>
+      <div class="stat"><div class="stat__num">2yr</div><div class="stat__label">CCNA coursework</div></div>
+    </div>
+  </div>
+</header>
 
-  <!-- ============ SKILLS ============ -->
-  <section class="resume__section">
-    <h2 class="resume__section-title">Technical Skills</h2>
-    <dl class="skills-grid">
-      <div class="skills-row">
-        <dt>SIEM &amp; Detection</dt>
-        <dd>Elastic SIEM, Suricata, alert triage, IOC pivoting, MITRE ATT&amp;CK mapping, Suricata rule tuning</dd>
+<!-- ================ ABOUT ================ -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="section__head">
+      <span class="section__kicker">01 · About</span>
+      <h2 class="section__title">Defender first, with attacker fluency.</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          I'm a cybersecurity analyst focused on the day-to-day work of a SOC: triaging alerts, hunting threats, validating findings, and turning investigations into actionable intelligence. My most representative project — <strong>33 threat investigations on the Burien municipal network</strong> — mirrors L1/L2 analyst work using Elastic SIEM and Suricata.
+        </p>
+        <p>
+          I hold the <strong>Mile2 C)PTE</strong> (Certified Penetration Testing Engineer) alongside <strong>CompTIA Security+</strong>. The combination matters: defenders who have walked an attacker's path build sharper detection rules and triage faster. My red-team coursework feeds directly back into how I write detection logic.
+        </p>
+        <p>
+          Looking to bring this mindset to a SOC team that values careful documentation, honest investigation methodology, and continuous detection-engineering improvement.
+        </p>
       </div>
-      <div class="skills-row">
-        <dt>Network Security</dt>
-        <dd>Snort IDS/IPS, Wireshark, Nmap, Zenmap, OpenVAS, pfSense, firewall rule design</dd>
-      </div>
-      <div class="skills-row">
-        <dt>Offensive Security</dt>
-        <dd>Metasploit, Responder, Mythic C2, BloodHound, Armitage, msfvenom, Vulnserver, LOLbin abuse</dd>
-      </div>
-      <div class="skills-row">
-        <dt>Database Security</dt>
-        <dd>MSSQL audit specifications, MongoDB Atlas triggers, ApexSQL Audit, SSMS, least-privilege access control</dd>
-      </div>
-      <div class="skills-row">
-        <dt>Identity &amp; Endpoint</dt>
-        <dd>Active Directory enumeration, NTLM/LLMNR analysis, Windows Defender Firewall, role-based access control</dd>
-      </div>
-      <div class="skills-row">
-        <dt>Cloud &amp; Big Data</dt>
-        <dd>AWS S3, AWS EMR, PySpark, MongoDB Atlas</dd>
-      </div>
-      <div class="skills-row">
-        <dt>Networking</dt>
-        <dd>VLANs, STP, EtherChannel, DHCP snooping, Dynamic ARP Inspection, WPA2/WPA3, HSRP, IPv4/IPv6 routing</dd>
-      </div>
-      <div class="skills-row">
-        <dt>Reporting</dt>
-        <dd>Investigation documentation, severity classification, formal client recommendations, executive summaries</dd>
-      </div>
-    </dl>
-  </section>
+      <aside class="about-card">
+        <h3>At a glance</h3>
+        <dl>
+          <dt>Certifications</dt>
+          <dd>Security+ (SY0-701) · Mile2 C)PTE</dd>
+          <dt>SIEM Stack</dt>
+          <dd>Elastic SIEM + Suricata</dd>
+          <dt>Networking</dt>
+          <dd>CCNA I &amp; II coursework</dd>
+          <dt>Education</dt>
+          <dd>Highline College</dd>
+          <dt>Location</dt>
+          <dd>Seattle, WA</dd>
+          <dt>Open to</dt>
+          <dd>L1 / L2 SOC, Detection Engineer, Junior Threat Hunter</dd>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</section>
 
-  <!-- ============ CERTIFICATIONS ============ -->
-  <section class="resume__section">
-    <h2 class="resume__section-title">Certifications</h2>
-    <ul class="cert-list">
-      <li>
-        <div class="cert-list__head">
-          <strong>CompTIA Security+ (SY0-701)</strong>
-          <span class="cert-list__date">Apr 2026 &ndash; Apr 2029</span>
-        </div>
-        <div class="cert-list__meta">
-          Candidate ID: COMP001022398661 &middot; <a href="../certifications-and-education/artifacts/CompTIA-Security-Plus-certificate.pdf" target="_blank" rel="noopener">View certificate</a>
-        </div>
-      </li>
-      <li>
-        <div class="cert-list__head">
-          <strong>Mile2 C)PTE &mdash; Certified Penetration Testing Engineer</strong>
-          <span class="cert-list__date">Issued Jun 2023 &middot; No expiration</span>
-        </div>
-        <div class="cert-list__meta">
-          Certificate ID: 23430-168-677-3063 &middot; <a href="../certifications-and-education/artifacts/Mile2-CPTE-certificate.png" target="_blank" rel="noopener">View certificate</a>
-        </div>
-      </li>
-      <li>
-        <div class="cert-list__head">
-          <strong>CCNAv7 Coursework &mdash; Cisco Networking Academy</strong>
-          <span class="cert-list__date">2022 &ndash; 2023</span>
-        </div>
-        <div class="cert-list__meta">
-          CIS 160 (Introduction to Networks) &middot; CIS 161 (Switching, Routing, &amp; Wireless Essentials) &middot; <a href="../certifications-and-education/" target="_blank" rel="noopener">View transcript</a>
-        </div>
-      </li>
-    </ul>
-  </section>
+<!-- ================ COMPETENCIES ================ -->
+<section id="competencies" class="section section--alt">
+  <div class="container">
+    <div class="section__head">
+      <span class="section__kicker">02 · Core Competencies</span>
+      <h2 class="section__title">SOC skills, framed in the language of the role.</h2>
+    </div>
+    <div class="comp-grid">
+      <article class="comp-card">
+        <div class="comp-card__icon" aria-hidden="true">📊</div>
+        <h3>SIEM &amp; Log Analysis</h3>
+        <p>Alert triage in Elastic + Suricata, event correlation across logs/geo/reputation feeds, Suricata rule tuning, and investigation documentation.</p>
+      </article>
+      <article class="comp-card">
+        <div class="comp-card__icon" aria-hidden="true">🔍</div>
+        <h3>Threat Hunting</h3>
+        <p>IOC pivoting, CVE exploitation pattern recognition (e.g. CVE-2024-1709), persistence detection across multi-month windows, threat-intel correlation.</p>
+      </article>
+      <article class="comp-card">
+        <div class="comp-card__icon" aria-hidden="true">🚨</div>
+        <h3>Incident Response &amp; Reporting</h3>
+        <p>Investigation methodology — alert → triage → validate → document. Severity classification, escalation, and formal client-facing recommendations.</p>
+      </article>
+      <article class="comp-card">
+        <div class="comp-card__icon" aria-hidden="true">🔵</div>
+        <h3>Network Security Monitoring</h3>
+        <p>Snort IDS/IPS deployment and live monitoring, Wireshark protocol analysis, firewall rule design, OpenVAS vulnerability scanning.</p>
+      </article>
+      <article class="comp-card">
+        <div class="comp-card__icon" aria-hidden="true">🔴</div>
+        <h3>Adversary Tradecraft</h3>
+        <p>Hands-on with Metasploit, Responder, Mythic C2, BloodHound, LOLbins. MITRE ATT&amp;CK mapping of techniques into detection opportunities.</p>
+      </article>
+      <article class="comp-card">
+        <div class="comp-card__icon" aria-hidden="true">🗄️</div>
+        <h3>Endpoint &amp; Database Security</h3>
+        <p>MSSQL server-level audit specifications, MongoDB Atlas database triggers, hardening + re-test cycles, least-privilege via stored procedures.</p>
+      </article>
+    </div>
+  </div>
+</section>
 
-  <!-- ============ PROJECTS ============ -->
-  <section class="resume__section">
-    <h2 class="resume__section-title">Project Experience</h2>
-
-    <article class="proj">
-      <div class="proj__head">
-        <h3>SIEM Threat Analysis &mdash; Burien Municipal Network</h3>
-        <span class="proj__date">Academic / Capstone</span>
+<!-- ================ TECHNICAL SKILLS ================ -->
+<section id="skills" class="section">
+  <div class="container">
+    <div class="section__head">
+      <span class="section__kicker">03 · Technical Skills</span>
+      <h2 class="section__title">The full toolkit, organized.</h2>
+      <p class="section__sub">Every category lists the actual tools and skills I've used in projects below.</p>
+    </div>
+    <div class="skills-block">
+      <div class="skills-block__header">
+        <span class="skills-block__dot skills-block__dot--r"></span>
+        <span class="skills-block__dot skills-block__dot--y"></span>
+        <span class="skills-block__dot skills-block__dot--g"></span>
+        <span class="skills-block__title">~/skills.matrix</span>
       </div>
-      <p class="proj__role"><em>L1/L2 Analyst, Green Team &middot; Elastic SIEM + Suricata</em></p>
-      <ul class="proj__bullets">
-        <li>Conducted <strong>33 active threat investigations</strong> on a live municipal network, producing formal client recommendations with severity classifications.</li>
-        <li>Tracked <strong>CVE-2024-1709</strong> (ConnectWise ScreenConnect auth bypass) exploitation attempts and authored remediation guidance referencing Mandiant and Sophos X-Ops advisories.</li>
-        <li>Identified <strong>90+ days of persistent communication</strong> from a malicious subnet (<code>78.153.140.0/24</code>); recommended automated blocking when poor-reputation alerts trigger.</li>
-        <li>Performed geolocation threat hunting; identified sustained connection attempts from Uruguay and China and recommended geo-block firewall rules.</li>
-        <li>Tuned Suricata rules to reduce false-positive load from benign web scanning, improving analyst triage efficiency.</li>
-      </ul>
-      <a class="proj__link" href="../siem-threat-analysis/" target="_blank" rel="noopener">View full write-up &rarr;</a>
+      <dl class="skills-matrix">
+        <div class="sk-row">
+          <dt><span class="sk-prompt">›</span> SIEM &amp; Detection</dt>
+          <dd>Elastic SIEM · Suricata · Alert triage · IOC pivoting · MITRE ATT&amp;CK mapping · Suricata rule tuning · False-positive reduction · Threat-intel correlation</dd>
+        </div>
+        <div class="sk-row">
+          <dt><span class="sk-prompt">›</span> Network Security</dt>
+          <dd>Snort IDS/IPS · Wireshark · Nmap · Zenmap · OpenVAS · pfSense · Firewall rule design · Network segmentation · Pre-engagement vuln scanning</dd>
+        </div>
+        <div class="sk-row">
+          <dt><span class="sk-prompt">›</span> Offensive Security</dt>
+          <dd>Metasploit · Responder · Mythic C2 + Apollo · BloodHound · Armitage · msfvenom · Vulnserver · LOLbin abuse · LLMNR poisoning</dd>
+        </div>
+        <div class="sk-row">
+          <dt><span class="sk-prompt">›</span> Database Security</dt>
+          <dd>MSSQL audit specs · MongoDB Atlas triggers · ApexSQL Audit · SSMS · Stored procedures · EXECUTE-only access · Least-privilege design</dd>
+        </div>
+        <div class="sk-row">
+          <dt><span class="sk-prompt">›</span> Identity &amp; Endpoint</dt>
+          <dd>Active Directory enumeration · NTLM / LLMNR analysis · Windows Defender Firewall · Group Policy hardening · Role-based access control</dd>
+        </div>
+        <div class="sk-row">
+          <dt><span class="sk-prompt">›</span> Cloud &amp; Big Data</dt>
+          <dd>AWS S3 · AWS EMR · PySpark · MongoDB Atlas · Hadoop / Spark / Hive on EMR</dd>
+        </div>
+        <div class="sk-row">
+          <dt><span class="sk-prompt">›</span> Networking</dt>
+          <dd>VLANs &amp; trunking (802.1Q) · STP / Rapid PVST+ · EtherChannel (LACP/PAgP) · DHCP snooping · Dynamic ARP Inspection · WPA2/WPA3 · HSRP · IPv4/IPv6 routing</dd>
+        </div>
+        <div class="sk-row">
+          <dt><span class="sk-prompt">›</span> Reporting &amp; Process</dt>
+          <dd>Investigation documentation · Severity classification · Formal client recommendations · Executive summaries · Penetration testing contracts &amp; ROE</dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- ================ PROJECTS ================ -->
+<section id="projects" class="section section--alt">
+  <div class="container">
+    <div class="section__head">
+      <span class="section__kicker">04 · Project Experience</span>
+      <h2 class="section__title">What I've actually done.</h2>
+      <p class="section__sub">Each entry is a real project. Click any title to view the full GitHub write-up with screenshots, ATT&amp;CK mapping, and methodology.</p>
+    </div>
+    <div class="proj-list">
+
+      <article class="proj proj--featured">
+        <header class="proj__head">
+          <div>
+            <span class="proj__badge">⭐ Most SOC-relevant</span>
+            <h3><a href="../siem-threat-analysis/" target="_blank" rel="noopener">SIEM Threat Analysis — Burien Municipal Network</a></h3>
+            <p class="proj__role">L1/L2 Analyst, Green Team · Elastic SIEM + Suricata · Academic capstone on a live municipal network</p>
+          </div>
+          <span class="proj__num">01</span>
+        </header>
+        <ul class="proj__bullets">
+          <li>Conducted <strong>33 active threat investigations</strong> producing formal client recommendations with severity classifications.</li>
+          <li>Tracked <strong>CVE-2024-1709</strong> (ConnectWise ScreenConnect auth bypass) exploitation attempts; authored remediation guidance referencing Mandiant and Sophos X-Ops advisories.</li>
+          <li>Identified <strong>90+ days of persistent communication</strong> from a malicious subnet (<code>78.153.140.0/24</code>); recommended automated blocking when poor-reputation alerts trigger.</li>
+          <li>Performed geolocation threat hunting against sustained connection attempts from Uruguay and China; recommended geo-block firewall rules.</li>
+          <li>Tuned Suricata rules to reduce false-positive load from benign web scanning, improving analyst triage efficiency.</li>
+        </ul>
+        <div class="proj__foot">
+          <div class="proj__tags">
+            <span>Elastic SIEM</span><span>Suricata</span><span>Threat Hunting</span><span>IOC Analysis</span><span>Incident Documentation</span>
+          </div>
+          <a class="proj__link" href="../siem-threat-analysis/" target="_blank" rel="noopener">View full write-up →</a>
+        </div>
+      </article>
+
+      <article class="proj">
+        <header class="proj__head">
+          <div>
+            <h3><a href="../redblue-team-exercise/" target="_blank" rel="noopener">Red/Blue Team Exercise — Snort vs. Hashcat</a></h3>
+            <p class="proj__role">Team SNORT (Schnaith, Almonte, Rodriguez-Ortiz, Gombo) · Jul 2023 · `192.168.2.0/24` scope</p>
+          </div>
+          <span class="proj__num">02</span>
+        </header>
+        <ul class="proj__bullets">
+          <li>Built and hardened a <strong>6-host virtualized network from scratch</strong> using VMware, pfSense, and virtual firewalls; <strong>defensive hardening blocked 100% of attempted attacks</strong>.</li>
+          <li>Deployed Snort IDS/IPS on Ubuntu as a network listener; used Wireshark for live packet capture during the engagement window.</li>
+          <li>Ran OpenVAS pre-engagement vulnerability scans and remediated findings before exposure to the opposing team.</li>
+          <li>Conducted authorized offensive operations against the opposing team using Nmap, Zenmap, Metasploit (MS08-067, MySQL auxiliary), and Armitage Hail Mary.</li>
+          <li>Drafted and signed formal penetration testing contract with rules of engagement and scoped targets.</li>
+        </ul>
+        <div class="proj__foot">
+          <div class="proj__tags">
+            <span>Snort IDS/IPS</span><span>Wireshark</span><span>OpenVAS</span><span>Network Hardening</span><span>Metasploit</span>
+          </div>
+          <a class="proj__link" href="../redblue-team-exercise/" target="_blank" rel="noopener">View full write-up →</a>
+        </div>
+      </article>
+
+      <article class="proj">
+        <header class="proj__head">
+          <div>
+            <h3><a href="../enterprise-pentest/" target="_blank" rel="noopener">Enterprise Penetration Test — Simulated Engagement</a></h3>
+            <p class="proj__role">Schnaith Services (Lead Analyst) · CIS 450 · Insider threat + assume-breach narratives</p>
+          </div>
+          <span class="proj__num">03</span>
+        </header>
+        <ul class="proj__bullets">
+          <li>Executed full-scope simulated penetration test with two attack narratives; mapped every finding to <strong>MITRE ATT&amp;CK</strong> techniques to inform detection-engineering recommendations.</li>
+          <li>Captured NTLM hashes via LLMNR poisoning with Responder (T1557.001); recommended Group Policy disablement of LLMNR.</li>
+          <li>Deployed Mythic C2 with Apollo agent (T1071, T1059); authored beacon-detection guidance for outbound TLS analysis.</li>
+          <li>Used BloodHound (T1087) for Active Directory enumeration; advised defensive use to identify and remediate privilege escalation paths.</li>
+          <li>Authored client-ready report with executive summary, severity-tiered recommendations, and ATT&amp;CK-mapped detection opportunities.</li>
+        </ul>
+        <div class="proj__foot">
+          <div class="proj__tags">
+            <span>Responder</span><span>Mythic C2</span><span>BloodHound</span><span>MITRE ATT&amp;CK</span><span>Detection Engineering</span>
+          </div>
+          <a class="proj__link" href="../enterprise-pentest/" target="_blank" rel="noopener">View full write-up →</a>
+        </div>
+      </article>
+
+      <article class="proj">
+        <header class="proj__head">
+          <div>
+            <h3><a href="../database-security-audit/" target="_blank" rel="noopener">Database Security &amp; Audit Configuration</a></h3>
+            <p class="proj__role">CIS 412 · MSSQL + MongoDB · Vulnerability assessment, audit configuration, hardening</p>
+          </div>
+          <span class="proj__num">04</span>
+        </header>
+        <ul class="proj__bullets">
+          <li>Configured <strong>MSSQL server-level audit specifications</strong> targeting <code>FAILED_DATABASE_AUTHENTICATION_GROUP</code>, <code>SUCCESSFUL_LOGIN_GROUP</code>, and role-change groups.</li>
+          <li>Built MongoDB Atlas database triggers for Insert / Update / Delete / Replace operations at both collection and database scope.</li>
+          <li>Performed Metasploit credential brute-force against MongoDB and reverse TCP payload (<code>mssql_payload</code>) against MSSQL; <strong>verified hardening blocked exploitation</strong> in pre/post test cycles.</li>
+          <li>Implemented least-privilege access using stored procedures and EXECUTE-only permissions on MSSQL Wine database.</li>
+          <li>Built AWS EMR + PySpark big-data pipeline processing food-establishment health-violations dataset.</li>
+        </ul>
+        <div class="proj__foot">
+          <div class="proj__tags">
+            <span>MSSQL Audit</span><span>MongoDB Triggers</span><span>ApexSQL</span><span>AWS EMR</span><span>Least Privilege</span>
+          </div>
+          <a class="proj__link" href="../database-security-audit/" target="_blank" rel="noopener">View full write-up →</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================ CERTIFICATIONS ================ -->
+<section id="certs" class="section">
+  <div class="container">
+    <div class="section__head">
+      <span class="section__kicker">05 · Certifications</span>
+      <h2 class="section__title">Defensive + offensive, validated.</h2>
+    </div>
+    <div class="cert-grid">
+
+      <article class="cert-card cert-card--secplus">
+        <div class="cert-card__icon">🛡️</div>
+        <h3>CompTIA Security+</h3>
+        <p class="cert-card__exam">SY0-701</p>
+        <dl class="cert-card__meta">
+          <div><dt>Certified</dt><dd>Apr 30, 2026</dd></div>
+          <div><dt>Valid</dt><dd>Apr 30, 2029</dd></div>
+          <div><dt>ID</dt><dd>COMP001022398661</dd></div>
+        </dl>
+        <a href="../certifications-and-education/artifacts/CompTIA-Security-Plus-certificate.pdf" target="_blank" rel="noopener" class="cert-card__link">View certificate →</a>
+      </article>
+
+      <article class="cert-card cert-card--cpte">
+        <div class="cert-card__icon">🎯</div>
+        <h3>Mile2 C)PTE</h3>
+        <p class="cert-card__exam">Certified Penetration Testing Engineer</p>
+        <dl class="cert-card__meta">
+          <div><dt>Issued</dt><dd>Jun 14, 2023</dd></div>
+          <div><dt>Expires</dt><dd>Never</dd></div>
+          <div><dt>ID</dt><dd>23430-168-677-3063</dd></div>
+        </dl>
+        <a href="../certifications-and-education/artifacts/Mile2-CPTE-certificate.png" target="_blank" rel="noopener" class="cert-card__link">View certificate →</a>
+      </article>
+
+      <article class="cert-card cert-card--ccna">
+        <div class="cert-card__icon">📡</div>
+        <h3>CCNA I &amp; II Coursework</h3>
+        <p class="cert-card__exam">Cisco Networking Academy</p>
+        <dl class="cert-card__meta">
+          <div><dt>Institution</dt><dd>Highline College</dd></div>
+          <div><dt>CIS 160</dt><dd>Dec 2022</dd></div>
+          <div><dt>CIS 161</dt><dd>Dec 2023</dd></div>
+        </dl>
+        <a href="../certifications-and-education/" target="_blank" rel="noopener" class="cert-card__link">View transcript →</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================ EDUCATION ================ -->
+<section id="education" class="section section--alt">
+  <div class="container">
+    <div class="section__head">
+      <span class="section__kicker">06 · Education</span>
+      <h2 class="section__title">Formal training in cybersecurity and networking.</h2>
+    </div>
+    <article class="edu-card">
+      <div class="edu-card__main">
+        <div class="edu-card__head">
+          <h3>Highline College</h3>
+          <span class="edu-card__date">2022 – 2024</span>
+        </div>
+        <p class="edu-card__sub">Cybersecurity coursework &middot; Cisco Networking Academy &middot; Instructor: Chun Yu</p>
+        <p class="edu-card__detail">
+          Two-course CCNAv7 sequence aligned to the Cisco CCNA exam, plus security-focused coursework that produced the four projects listed above. Hands-on labs in Cisco Packet Tracer covering routing, switching, wireless, and Layer 2 security.
+        </p>
+        <div class="edu-card__topics">
+          <span class="topic">VLANs &amp; Trunking</span>
+          <span class="topic">STP / Rapid PVST+</span>
+          <span class="topic">EtherChannel</span>
+          <span class="topic">Inter-VLAN Routing</span>
+          <span class="topic">DHCP Snooping</span>
+          <span class="topic">Dynamic ARP Inspection</span>
+          <span class="topic">Port Security</span>
+          <span class="topic">WPA2 / WPA3</span>
+          <span class="topic">HSRP</span>
+          <span class="topic">DHCPv4 / DHCPv6 / SLAAC</span>
+          <span class="topic">IPv4 &amp; IPv6 Routing</span>
+          <span class="topic">Layer 2 Threat Mitigation</span>
+        </div>
+      </div>
+      <aside class="edu-card__side">
+        <h4>Coursework Highlights</h4>
+        <ul>
+          <li><strong>CIS 160</strong> — CCNAv7: Introduction to Networks (Dec 2022)</li>
+          <li><strong>CIS 161</strong> — CCNAv7: Switching, Routing &amp; Wireless Essentials (Dec 2023)</li>
+          <li><strong>CIS 412</strong> — Database Security (final project published in this portfolio)</li>
+          <li><strong>CIS 450</strong> — Penetration Testing (final report published in this portfolio)</li>
+        </ul>
+      </aside>
     </article>
+  </div>
+</section>
 
-    <article class="proj">
-      <div class="proj__head">
-        <h3>Red/Blue Team Exercise &mdash; Snort vs. Hashcat</h3>
-        <span class="proj__date">Jul 2023</span>
-      </div>
-      <p class="proj__role"><em>Team SNORT (William Schnaith, Nassiah Almonte, Cesar Rodriguez-Ortiz, Lince Gombo)</em></p>
-      <ul class="proj__bullets">
-        <li>Built and hardened a <strong>6-host virtualized network from scratch</strong> using VMware, pfSense, and virtual firewalls; <strong>defensive hardening blocked 100% of attempted attacks</strong>.</li>
-        <li>Deployed Snort IDS/IPS on Ubuntu as a network listener; used Wireshark for live packet capture and protocol analysis during the engagement window.</li>
-        <li>Ran OpenVAS pre-engagement vulnerability scans and remediated findings before exposure to the opposing team.</li>
-        <li>Conducted authorized offensive operations against the opposing team using Nmap, Zenmap, Metasploit (MS08-067, MySQL auxiliary), and Armitage Hail Mary.</li>
-        <li>Drafted and signed formal penetration testing contract with rules of engagement and scoped targets.</li>
-      </ul>
-      <a class="proj__link" href="../redblue-team-exercise/" target="_blank" rel="noopener">View full write-up &rarr;</a>
-    </article>
-
-    <article class="proj">
-      <div class="proj__head">
-        <h3>Enterprise Penetration Test &mdash; Simulated Engagement</h3>
-        <span class="proj__date">CIS 450</span>
-      </div>
-      <p class="proj__role"><em>Schnaith Services (Lead Analyst) &middot; Insider threat + assume-breach narratives</em></p>
-      <ul class="proj__bullets">
-        <li>Executed full-scope simulated penetration test with two attack narratives; mapped every finding to <strong>MITRE ATT&amp;CK techniques</strong> to inform detection-engineering recommendations.</li>
-        <li>Captured NTLM hashes via LLMNR poisoning with Responder (T1557.001) and recommended Group Policy disablement of LLMNR.</li>
-        <li>Deployed Mythic C2 with Apollo agent (T1071, T1059) and authored beacon-detection guidance for outbound TLS analysis.</li>
-        <li>Used BloodHound (T1087) for Active Directory enumeration; advised defensive use to identify and remediate privilege escalation paths.</li>
-        <li>Authored client-ready report with executive summary, severity-tiered recommendations, and ATT&amp;CK-mapped detection opportunities.</li>
-      </ul>
-      <a class="proj__link" href="../enterprise-pentest/" target="_blank" rel="noopener">View full write-up &rarr;</a>
-    </article>
-
-    <article class="proj">
-      <div class="proj__head">
-        <h3>Database Security &amp; Audit Configuration</h3>
-        <span class="proj__date">CIS 412</span>
-      </div>
-      <p class="proj__role"><em>MSSQL + MongoDB &middot; Vulnerability assessment, audit configuration, and hardening</em></p>
-      <ul class="proj__bullets">
-        <li>Configured <strong>MSSQL server-level audit specifications</strong> targeting `FAILED_DATABASE_AUTHENTICATION_GROUP`, `SUCCESSFUL_LOGIN_GROUP`, and role-change groups.</li>
-        <li>Built MongoDB Atlas database triggers for Insert/Update/Delete/Replace operations at both collection and database scope.</li>
-        <li>Performed Metasploit credential brute-force against MongoDB and reverse TCP payload (`mssql_payload`) against MSSQL; <strong>verified hardening blocked exploitation</strong> in pre/post test cycles.</li>
-        <li>Implemented least-privilege access using stored procedures and EXECUTE-only permissions on MSSQL Wine database.</li>
-        <li>Built AWS EMR + PySpark big-data pipeline processing food-establishment health-violations dataset.</li>
-      </ul>
-      <a class="proj__link" href="../database-security-audit/" target="_blank" rel="noopener">View full write-up &rarr;</a>
-    </article>
-
-  </section>
-
-  <!-- ============ EDUCATION ============ -->
-  <section class="resume__section">
-    <h2 class="resume__section-title">Education</h2>
-    <article class="edu">
-      <div class="edu__head">
-        <h3>Highline College</h3>
-        <span class="edu__date">2022 &ndash; 2024</span>
-      </div>
-      <p class="edu__detail">
-        Cybersecurity coursework and Cisco Networking Academy. Completed <strong>CCNAv7: Introduction to Networks</strong> (Dec 2022) and <strong>CCNAv7: Switching, Routing, and Wireless Essentials</strong> (Dec 2023) under instructor Chun Yu, with hands-on labs in Cisco Packet Tracer covering VLANs, STP, EtherChannel, Layer 2 security (port security, DHCP snooping, DAI), wireless (WPA2/WPA3), HSRP, and IPv4/IPv6 routing.
+<!-- ================ CONTACT ================ -->
+<section id="contact" class="section">
+  <div class="container">
+    <div class="contact">
+      <span class="section__kicker">07 · Contact</span>
+      <h2 class="contact__title">Let's talk about your SOC team.</h2>
+      <p class="contact__lede">
+        Open to L1/L2 SOC Analyst, Detection Engineer, and Junior Threat Hunter roles. Reach out via LinkedIn or GitHub.
       </p>
-    </article>
-  </section>
+      <div class="contact__actions">
+        <a href="https://www.linkedin.com/in/williamschnaith/" target="_blank" rel="noopener" class="btn btn--primary btn--lg">Connect on LinkedIn</a>
+        <a href="https://github.com/DiveBurien/WillsCorner" target="_blank" rel="noopener" class="btn btn--ghost btn--lg">View GitHub Repo</a>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <footer class="resume__foot">
-    Source: <a href="https://github.com/DiveBurien/WillsCorner" target="_blank" rel="noopener">github.com/DiveBurien/WillsCorner</a>
-  </footer>
+<footer class="footer">
+  <div class="container footer__inner">
+    <span>© <span id="year"></span> William Schnaith</span>
+    <span class="footer__sep">·</span>
+    <a href="https://github.com/DiveBurien/WillsCorner" target="_blank" rel="noopener">DiveBurien/WillsCorner</a>
+  </div>
+</footer>
 
-</main>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const sections = document.querySelectorAll('section[id], header[id]');
+  const navLinks = document.querySelectorAll('.nav__links a');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        navLinks.forEach(link => link.classList.toggle('active', link.getAttribute('href') === '#' + entry.target.id));
+      }
+    });
+  }, { rootMargin: '-40% 0px -55% 0px' });
+  sections.forEach(s => observer.observe(s));
+</script>
 
 </body>
 </html>
