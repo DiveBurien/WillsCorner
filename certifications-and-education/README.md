@@ -28,7 +28,7 @@
 |---|---|
 | **Status** | ✅ Certified |
 | **Issued** | June 14, 2023 |
-| **Valid Through** | June 13, 2026 |
+| **Expiration** | None — credential does not expire |
 | **Certificate ID** | 23430-168-677-3063 |
 | **Issuer** | Mile2 Cybersecurity Certifications |
 | **Credential** | [📑 View Certificate](artifacts/Mile2-CPTE-certificate.png) |

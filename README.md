@@ -219,7 +219,7 @@ Valid through Apr 30, 2029
 ### 🎯
 **Mile2 C)PTE**
 Certified Penetration Testing Engineer
-Issued Jun 14, 2023
+Issued Jun 14, 2023 · No expiration
 [View Certificate →](certifications-and-education/artifacts/Mile2-CPTE-certificate.png)
 
 </td>
