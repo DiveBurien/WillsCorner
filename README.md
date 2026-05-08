@@ -1,174 +1,246 @@
-# Hi, I'm William Schnaith.
+<div align="center">
 
-<a href="https://www.linkedin.com/in/williamschnaith/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+# William Schnaith
+### SOC Analyst · Blue Team · Threat Hunter
 
-I am a recent cybersecurity graduate actively building hands-on skills in penetration testing, threat hunting, and security analysis.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0072b1?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/williamschnaith/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Site-39d353?style=for-the-badge&logo=githubpages&logoColor=white)](https://diveburien.github.io/WillsCorner/)
+[![Security+](https://img.shields.io/badge/CompTIA-Security%2B-c8202f?style=for-the-badge&logo=comptia&logoColor=white)](certifications-and-education/artifacts/CompTIA-Security-Plus-certificate.pdf)
+[![CPTE](https://img.shields.io/badge/Mile2-C%29PTE-1f3a93?style=for-the-badge)](certifications-and-education/artifacts/Mile2-CPTE-certificate.png)
+
+</div>
 
 ---
 
-## 🎯 Objective
+> Cybersecurity professional with hands-on experience in **SIEM operations, threat hunting, incident response, and offensive security**. CompTIA Security+ and Mile2 C)PTE certified. Looking to bring detection-engineering and blue-team mindset to a SOC Analyst role.
 
-My learning journey has led me to a deep passion for cybersecurity. Through academic projects and real-world simulations, I have developed experience in penetration testing, SIEM analysis, network defense, and vulnerability management. I am now eager to bring these skills to a professional environment as a Security Analyst.
+## ⚡ At a Glance
+
+| | |
+|---|---|
+| 🛡️ **Certifications** | CompTIA Security+ (SY0-701) · Mile2 C)PTE |
+| 🔎 **SIEM Experience** | 33 active threat investigations on a live municipal network (Elastic + Suricata) |
+| 🎯 **Detection** | CVE-2024-1709 exploitation tracking · 90-day persistence detection · geolocation threat hunting |
+| 🔴 **Offensive** | Full enterprise pentest report · red/blue team exercise · MITRE ATT&CK-mapped findings |
+| 🗄️ **Database Security** | MSSQL + MongoDB audit configuration, exploit testing, hardening |
+| 🌐 **Networking** | CCNA I & II coursework — VLANs, STP, Layer 2 security, DHCP snooping |
 
 ---
 
-## 📋 Skills
-Security competencies I've developed and demonstrated across my projects.
+## 🎯 SOC Core Competencies
 
-**Jump to:** [🔍 Vulnerability Management](#-vulnerability-management) · [📊 SIEM & Log Analysis](#-siem--log-analysis) · [🔴 Penetration Testing & Incident Response](#-penetration-testing--incident-response) · [🔵 Network Defense & Hardening](#-network-defense--hardening) · [🗂️ Active Directory & Identity Security](#️-active-directory--identity-security) · [🗄️ Database Security & Administration](#️-database-security--administration) · [☁️ Cloud & Big Data](#️-cloud--big-data) · [🌐 Networking & Infrastructure](#-networking--infrastructure)
-
-### 🔍 Vulnerability Management
-| Skill | Description | Associated Project |
-|-------|-------------|-------------------|
-| Vulnerability Scanning & Assessment | Conducted OpenVAS and Nmap-based scans to identify weaknesses before and during engagements | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a>, <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
-| Database Vulnerability Scanning | Used Metasploit auxiliary modules to scan MongoDB and MSSQL for exposed services and authentication weaknesses | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
-| Network Analysis & Attack Surface Reduction | Identified open ports, exposed services, and OS fingerprinting risks across virtualized networks | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
-| CVE Research & Exploitation | Researched and exploited real CVEs including CVE-2024-1709 (ConnectWise ScreenConnect) and MS08-067 | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/Security-analysis-report">Security-analysis-report</a>, <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
-| Risk-Based Remediation Recommendations | Produced formal client recommendations prioritized by severity and business impact | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/Security-analysis-report">Security-analysis-report</a>, <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
+<table>
+<tr>
+<td width="50%">
 
 ### 📊 SIEM & Log Analysis
-| Skill | Description | Associated Project |
-|-------|-------------|-------------------|
-| SIEM Implementation & Log Analysis | Investigated 33 threat cases using Elastic SIEM, triaging alerts and correlating events across logs | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/Security-analysis-report">Security-analysis-report</a> |
-| Network Traffic Monitoring & Attack Detection | Identified malicious subnet communications, geolocation threats, and phishing-related traffic | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/Security-analysis-report">Security-analysis-report</a> |
-| Database Audit Log Review | Configured and reviewed MSSQL server audit logs for login events, role changes, and remote access activity | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
-| False Positive Reduction & Rule Tuning | Analyzed Suricata false positives from benign web scanning to improve alert fidelity | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/Security-analysis-report">Security-analysis-report</a> |
-| Threat Intelligence Application | Applied threat intelligence to identify poor reputation IPs, geolocation risks, and active C2 IOCs | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/Security-analysis-report">Security-analysis-report</a> |
+- Alert triage in **Elastic SIEM** + **Suricata**
+- Event correlation across logs, geo, and reputation feeds
+- Suricata rule tuning to reduce false-positive load
+- Investigation documentation and client-ready reporting
 
-### 🔴 Penetration Testing & Incident Response
-| Skill | Description | Associated Project |
-|-------|-------------|-------------------|
-| Penetration Test Planning & Scoping | Defined rules of engagement, drafted formal contracts, and scoped authorized targets | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
-| Red Team Operations | Conducted offensive operations including credential capture, C2 deployment, and exploit attempts | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a>, <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
-| Database Exploitation | Performed credential brute-force attacks against MongoDB and reverse TCP payload attempts against MSSQL | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
-| Post-Exploitation & Lateral Movement | Demonstrated privilege escalation paths and credential-based attacks using BloodHound and Responder | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
-| Formal Report Writing | Produced professional client-facing reports with executive summaries, severity ratings, and actionable recommendations | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a>, <a href="https://github.com/DiveBurien/WillsCorner/tree/master/Security-analysis-report">Security-analysis-report</a> |
+</td>
+<td width="50%">
 
-### 🔵 Network Defense & Hardening
-| Skill | Description | Associated Project |
-|-------|-------------|-------------------|
-| Network Hardening | Configured virtual firewalls, enforced password policies, applied OS patches, and ran pre-engagement vulnerability scans | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
-| IDS/IPS Deployment & Monitoring | Deployed Snort on Ubuntu to monitor live traffic and detect intrusion attempts during red team exercises | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
-| Firewall & Access Control | Implemented and managed firewall rules to block malicious IPs and restrict unnecessary traffic | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/Security-analysis-report">Security-analysis-report</a>, <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
-| Database Hardening & Re-Testing | Hardened MSSQL and MongoDB by disabling remote connections and enabling authentication, then re-ran attacks to confirm effectiveness | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
+### 🔍 Threat Hunting & Detection
+- IOC pivoting (IP reputation, geolocation, domain)
+- CVE exploitation pattern recognition (e.g. CVE-2024-1709)
+- Persistence detection across multi-month windows
+- Threat-intel correlation against active campaigns
 
-### 🗂️ Active Directory & Identity Security
-| Skill | Description | Associated Project |
-|-------|-------------|-------------------|
-| Active Directory Enumeration | Used BloodHound to map AD relationships and identify privilege escalation paths | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
-| Credential Attack & Hash Capture | Captured NTLM password hashes via LLMNR poisoning using Responder | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-### 🗄️ Database Security & Administration
-| Skill | Description | Associated Project |
-|-------|-------------|-------------------|
-| Database Auditing (MSSQL) | Configured server-level audit specifications in SSMS targeting login events, role changes, and permission modifications | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
-| Database Auditing (MongoDB) | Created collection and database-level triggers in MongoDB Atlas to monitor Insert, Update, Delete, and Replace operations | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
-| Third-Party Auditing Tools | Installed and configured ApexSQL Audit on MSSQL to capture before/after values for data modifications and schema changes | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
-| Stored Procedures & Least Privilege | Created stored procedures and granted execute-only permissions to demonstrate least-privilege database access control | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
-| User Administration | Created server logins and database users with scoped permissions and role-based access controls in MSSQL | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
-| Remote Database Access & Log Review | Remotely connected to MSSQL and MongoDB instances and reviewed audit logs to verify captured events | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
+### 🚨 Incident Response & Reporting
+- Investigation methodology: alert → triage → validate → document
+- Severity classification and escalation
+- Formal client-facing recommendations
+- Post-incident hardening guidance
 
-### ☁️ Cloud & Big Data
-| Skill | Description | Associated Project |
-|-------|-------------|-------------------|
-| AWS S3 Bucket Management | Created S3 buckets, uploaded datasets and scripts, and managed output folders for a big data pipeline | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
-| AWS EMR Cluster Configuration | Provisioned and configured an Amazon EMR cluster with Spark, Hadoop, and Hive for distributed data processing | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
-| Big Data Processing with PySpark | Ran a PySpark job on EMR to process an 11MB food establishment dataset and generate ranked output results | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
+</td>
+<td width="50%">
 
-### 🌐 Networking & Infrastructure
-| Skill | Description | Associated Project |
-|-------|-------------|-------------------|
-| VLAN Configuration & Trunking | Configure VLANs, trunk ports, DTP, and 802.1Q encapsulation on Cisco switches | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> |
-| Inter-VLAN Routing | Implement router-on-a-stick and Layer 3 switch inter-VLAN routing with security best practices | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> |
-| Spanning Tree Protocol (STP) | Configure and troubleshoot STP and Rapid PVST+ to eliminate switching loops and ensure redundancy | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> |
-| EtherChannel | Bundle physical links using LACP/PAgP for increased bandwidth and link redundancy | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> |
-| DHCP Configuration (IPv4/IPv6) | Configure DHCPv4/v6 servers, relay agents, SLAAC, and stateful DHCPv6 | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> |
-| First-Hop Redundancy (HSRP) | Configure HSRP virtual IPs and failover behavior for gateway high availability | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> |
-| Layer 2 Security | Implement port security, DHCP snooping, and Dynamic ARP Inspection to mitigate LAN-level attacks | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> |
-| Wireless Networking (WLAN) | Configure WLANs, apply WPA2/WPA3 security protocols, and troubleshoot wireless connectivity | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> |
-| Static & Default Routing | Configure static, default, and floating static routes for IPv4 and IPv6 networks | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> |
-| Network Troubleshooting | Diagnose and resolve issues with VLANs, inter-VLAN routing, STP, EtherChannel, and routing | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> |
+### 🔵 Network Security Monitoring
+- **Snort IDS/IPS** deployment and live monitoring
+- **Wireshark** packet capture and protocol analysis
+- Firewall rule design and access control
+- Pre-engagement vulnerability scanning with **OpenVAS**
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🔴 Adversary Tradecraft (for Detection)
+- Red-team experience informs detection engineering
+- MITRE ATT&CK mapping of observed techniques
+- Hands-on with **Metasploit, Responder, Mythic C2, BloodHound**
+- LOLbin abuse, LLMNR poisoning, AD enumeration
+
+</td>
+<td width="50%">
+
+### 🗄️ Endpoint & Database Security
+- MSSQL server-level audit specifications
+- MongoDB Atlas database triggers
+- Hardening + re-test verification cycles
+- Least-privilege access via stored procedures
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📁 Featured Projects
+
+> Ordered by SOC relevance — start with **#1** for the work most representative of the day-to-day analyst role.
+
+### ⭐ 1. [SIEM Threat Analysis — Burien Municipal Network](siem-threat-analysis/)
+**The most SOC-representative project in this portfolio.** L1/L2 analyst work on a live municipal network using Elastic SIEM and Suricata. Conducted **33 comprehensive threat investigations** including:
+- 🔴 **CVE-2024-1709** ConnectWise ScreenConnect auth-bypass exploitation tracking
+- 🔴 90-day persistence detection from a malicious subnet (`78.153.140.0/24`)
+- 🟡 Geolocation threat hunting (Uruguay, China)
+- 🟡 Phishing simulation and IOC analysis
+- 🟢 Suricata rule tuning to reduce false positives
+
+`Elastic SIEM` `Suricata` `Threat Hunting` `IOC Analysis` `Incident Documentation`
+
+### 2. [Red/Blue Team Exercise — Snort vs. Hashcat](redblue-team-exercise/)
+Built and hardened a 6-host virtualized network from scratch, then attempted to penetrate the opposing team's infrastructure. **Defensive hardening blocked 100% of attacks.** Demonstrates blue-team mindset and understanding of how attacks fail when defenses are tuned.
+
+`Snort IDS/IPS` `Wireshark` `OpenVAS` `Network Hardening` `Metasploit` `Armitage`
+
+### 3. [Enterprise Penetration Test — Simulated Engagement](enterprise-pentest/)
+Full-scope simulated pentest with two attack narratives (insider threat + assume breach). Findings mapped to **MITRE ATT&CK** to inform detection-engineering recommendations.
+
+`Responder` `Nmap` `Mythic C2` `BloodHound` `Vulnserver` `LOLbins` `MITRE ATT&CK`
+
+### 4. [Database Security & Audit Configuration](database-security-audit/)
+Vulnerability scanning, exploit testing, audit configuration, and hardening across **MSSQL** and **MongoDB**. Includes pre/post hardening verification and a least-privilege stored-procedure implementation.
+
+`MSSQL Audit` `MongoDB Triggers` `ApexSQL` `Metasploit` `AWS EMR` `Least Privilege`
 
 ---
 
 ## 🛠️ Toolbox
-Tools I've learned and used across my security projects, organized by category.
 
-**Jump to:** [🌐 Network Scanning & Reconnaissance](#-network-scanning--reconnaissance) · [🔴 Exploitation & Offensive Security](#-exploitation--offensive-security) · [🔵 Intrusion Detection & Network Defense](#-intrusion-detection--network-defense) · [📊 SIEM & Threat Hunting](#-siem--threat-hunting) · [🗂️ Active Directory & Identity](#️-active-directory--identity) · [🗄️ Database Security](#️-database-security) · [☁️ Cloud & Big Data](#️-cloud--big-data-1)
+<table>
+<tr>
+<th>SIEM & Detection</th>
+<th>Network Security</th>
+<th>Offensive Security</th>
+</tr>
+<tr>
+<td valign="top">
 
-### 🌐 Network Scanning & Reconnaissance
-| Tool | Description | Associated Project |
-|------|-------------|-------------------|
-| Nmap | Port scanning, OS detection, and vulnerability enumeration across network hosts | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a>, <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
-| Zenmap | GUI-based network scanning and topology mapping using Nmap | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
-| WireShark | Live packet capture and network traffic analysis | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
-| Responder | LLMNR/NBT-NS poisoning for credential interception on internal networks | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
+- Elastic SIEM
+- Suricata
+- ApexSQL Audit
+- MSSQL Audit Specs
+- MongoDB Atlas Triggers
 
-### 🔴 Exploitation & Offensive Security
-| Tool | Description | Associated Project |
-|------|-------------|-------------------|
-| Metasploit — MySQL | Auxiliary module for database authentication testing and enumeration | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
-| Metasploit — NetAPI | MS08-067 SMB exploit with Meterpreter reverse TCP payload | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
-| Metasploit — MongoDB | Credential scanning and brute-force login attacks against MongoDB instances | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
-| Metasploit — MSSQL | Auxiliary scanning and reverse TCP payload exploitation against MSSQL servers | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
-| Armitage | Graphical Metasploit interface for coordinating multi-host attack campaigns | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
-| C2 and Agent (Mythic / Apollo) | Command & Control framework for simulating post-exploitation malware behavior | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
-| Vulnserver | Binary exploitation and buffer overflow testing on Windows environments | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
-| msfvenom | Shellcode and payload generation for exploitation scenarios | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
-| LOLbins | Leveraging native Windows binaries for post-exploitation techniques | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
+</td>
+<td valign="top">
 
-### 🔵 Intrusion Detection & Network Defense
-| Tool | Description | Associated Project |
-|------|-------------|-------------------|
-| Snort IDS/IPS | Real-time network intrusion detection and prevention using custom rule sets | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
-| OpenVAS | Vulnerability scanning and risk assessment across internal network hosts | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> |
+- Snort IDS/IPS
+- Wireshark
+- Nmap / Zenmap
+- OpenVAS
+- pfSense
 
-### 📊 SIEM & Threat Hunting
-| Tool | Description | Associated Project |
-|------|-------------|-------------------|
-| Elastic SIEM | Log ingestion, alert triage, threat hunting, and geolocation analysis | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/Security-analysis-report">Security-analysis-report</a> |
-| Suricata | Network threat detection and alert generation integrated with Elastic | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/Security-analysis-report">Security-analysis-report</a> |
+</td>
+<td valign="top">
 
-### 🗂️ Active Directory & Identity
-| Tool | Description | Associated Project |
-|------|-------------|-------------------|
-| BloodHound | Active Directory relationship visualization and privilege escalation path analysis | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> |
+- Metasploit
+- Responder
+- Mythic C2 + Apollo
+- BloodHound
+- Armitage
+- msfvenom
+- Vulnserver
+- LOLbins
 
-### 🗄️ Database Security
-| Tool | Description | Associated Project |
-|------|-------------|-------------------|
-| SSMS (SQL Server Management Studio) | Managed MSSQL server instances, configured audits, created users, and administered stored procedures | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
-| ApexSQL Audit | Third-party MSSQL auditing tool used to capture before/after values for data changes and schema modifications | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
-| MongoDB Atlas | Cloud-hosted MongoDB platform used for remote access, trigger configuration, and database-level auditing | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
-| MongoDB Compass | GUI client for remotely connecting to MongoDB clusters and performing data operations | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
+</td>
+</tr>
+<tr>
+<th>Identity & Endpoint</th>
+<th>Cloud & Big Data</th>
+<th>Networking</th>
+</tr>
+<tr>
+<td valign="top">
 
-### ☁️ Cloud & Big Data
-| Tool | Description | Associated Project |
-|------|-------------|-------------------|
-| AWS S3 | Cloud object storage used for hosting datasets, scripts, and processing output for an EMR pipeline | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
-| AWS EMR | Managed big data cluster platform used to run a distributed PySpark job on a large health violations dataset | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
-| PySpark | Python-based distributed data processing framework run on EMR to analyze and rank food establishment violations | <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> |
+- Active Directory enumeration
+- LLMNR / NTLM analysis
+- Windows Defender Firewall
+- SSMS user/role management
+
+</td>
+<td valign="top">
+
+- AWS S3
+- AWS EMR
+- PySpark
+- MongoDB Atlas
+
+</td>
+<td valign="top">
+
+- Cisco Packet Tracer
+- VLANs, STP, EtherChannel
+- DHCP snooping, DAI
+- WPA2 / WPA3
+- HSRP, static & default routing
+
+</td>
+</tr>
+</table>
 
 ---
 
-<!--## 🎓 Certifications & Coursework
+## 📜 Certifications & Education
 
-| Course | Institution | Platform | Completed |
-|--------|------------|----------|-----------|
-| CCNAv7: Switching, Routing, and Wireless Essentials | Highline College | Cisco Networking Academy | Dec 2023 |
-| CCNAv7: Introduction to Networks | Highline College | Cisco Networking Academy | Dec 2022 |
+<table>
+<tr>
+<td width="33%" align="center">
 
-Topics covered across the CCNAv7 curriculum include VLANs, inter-VLAN routing, STP, EtherChannel, DHCP, HSRP, Layer 2 security, wireless networking (WPA2/WPA3), static and default routing, and IPv6 — all with hands-on labs using Cisco Packet Tracer.
+### 🛡️
+**CompTIA Security+ (SY0-701)**
+Certified Apr 30, 2026
+Valid through Apr 30, 2029
+[View Certificate →](certifications-and-education/artifacts/CompTIA-Security-Plus-certificate.pdf)
 
-> 📄 Full course breakdown and skills list available in the <a href="https://github.com/DiveBurien/WillsCorner/tree/master/learnings-and-certifications">learnings-and-certifications</a> folder.
+</td>
+<td width="33%" align="center">
+
+### 🎯
+**Mile2 C)PTE**
+Certified Penetration Testing Engineer
+Issued Jun 14, 2023
+[View Certificate →](certifications-and-education/artifacts/Mile2-CPTE-certificate.png)
+
+</td>
+<td width="33%" align="center">
+
+### 📡
+**CCNA I & II Coursework**
+Cisco Networking Academy
+Highline College (2022–2023)
+[View Coursework →](certifications-and-education/)
+
+</td>
+</tr>
+</table>
+
+Full details and official transcript: [`certifications-and-education/`](certifications-and-education/)
 
 ---
--->
-## 📁 Projects
 
-| Project | Description |
-|---------|-------------|
-| <a href="https://github.com/DiveBurien/WillsCorner/tree/master/pentest-report">pentest-report</a> | Penetration test of a simulated Starbucks environment — insider threat and assume breach scenarios using Responder, Nmap, Mythic C2, BloodHound, and more |
-| <a href="https://github.com/DiveBurien/WillsCorner/tree/master/Security-analysis-report">Security-analysis-report</a> | Security analysis of the Burien municipal network — 33 threat investigations using Elastic SIEM and Suricata with formal client recommendations |
-| <a href="https://github.com/DiveBurien/WillsCorner/tree/master/snort-pentest">snort-pentest</a> | Red team vs blue team exercise — built and hardened a virtualized network from scratch, then attempted to penetrate the opposing team's infrastructure |
-| <a href="https://github.com/DiveBurien/WillsCorner/tree/master/db-security-project">db-security-project</a> | Database security and audit project — vulnerability scanning, exploitation, hardening, and auditing of MSSQL and MongoDB, plus a big data pipeline on AWS EMR |
+## 📬 Contact
+
+- **LinkedIn:** [linkedin.com/in/williamschnaith](https://www.linkedin.com/in/williamschnaith/)
+- **GitHub:** [github.com/DiveBurien](https://github.com/DiveBurien)
+- **Portfolio Site:** [diveburien.github.io/WillsCorner](https://diveburien.github.io/WillsCorner/)
